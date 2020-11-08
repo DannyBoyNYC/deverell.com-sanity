@@ -11,7 +11,8 @@ import post from './post';
 import author from './author';
 import bio from './bio';
 import book from './book';
-// object schemas
+// object types
+import mainImage from './objects/mainImage'
 import excerptPortableText from './objects/excerptPortableText';
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -32,5 +33,6 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     blockContent,
     excerptPortableText,
+    mainImage,
   ]),
 });

@@ -1,5 +1,16 @@
 # Sanity Blogging Content Studio
 
+Using GQL with Sanity - [GraphQL](https://www.sanity.io/docs/graphql)
+
+Sanity Studio
+
+github login
+
+- `npm install -g @sanity/cli`
+- `sanity graphql deploy` 
+- restart the Studio and the Gatsby app  
+- `sanity start`
+
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
 
 Now you can do the following things:
