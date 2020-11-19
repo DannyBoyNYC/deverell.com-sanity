@@ -32,9 +32,9 @@ export default {
       },
     },
     {
-      name: 'image',
-      type: 'image',
-      title: 'Image',
+      name: 'mainImage',
+      type: 'mainImage',
+      title: 'Main Image',
     },
     {
       name: 'body',

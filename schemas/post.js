@@ -1,53 +1,53 @@
 export default {
-  name: "post",
-  title: "Post",
-  type: "document",
+  name: 'post',
+  title: 'Post',
+  type: 'document',
   fields: [
     {
-      name: "title",
-      title: "Title",
-      type: "string",
+      name: 'title',
+      title: 'Title',
+      type: 'string',
     },
     {
-      name: "slug",
-      title: "Slug",
-      type: "slug",
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
       options: {
-        source: "title",
+        source: 'title',
         maxLength: 96,
       },
     },
     {
-      name: "publishedAt",
-      title: "Published at",
-      type: "datetime",
+      name: 'publishedAt',
+      title: 'Published at',
+      type: 'datetime',
       options: {
-        dateFormat: "MMMM D YYYY",
+        dateFormat: 'MMMM D YYYY',
       },
     },
     {
-      name: "mainImage",
-      type: "mainImage",
-      title: "Main Image",
+      name: 'mainImage',
+      type: 'mainImage',
+      title: 'Main Image',
     },
     {
-      name: "excerpt",
-      type: "excerptPortableText",
-      title: "Excerpt",
+      name: 'excerpt',
+      type: 'excerptPortableText',
+      title: 'Lead-in',
       description:
-        "This ends up on summary pages, on Google, and when people share your post in social media.",
+        'This ends up on summary pages, on Google, and when people share your post in social media.',
     },
     {
-      name: "body",
-      title: "Body",
-      type: "blockContent",
+      name: 'body',
+      title: 'Body',
+      type: 'blockContent',
     },
   ],
 
   preview: {
     select: {
-      title: "title",
-      media: "mainImage",
+      title: 'title',
+      media: 'mainImage',
     },
   },
 };
