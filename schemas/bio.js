@@ -18,6 +18,11 @@ export default {
       },
     },
     {
+      name: 'mainImage',
+      type: 'mainImage',
+      title: 'Main Image',
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
