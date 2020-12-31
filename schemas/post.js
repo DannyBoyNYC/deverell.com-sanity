@@ -26,6 +26,11 @@ export default {
       },
     },
     {
+      title: 'Show on home page?',
+      name: 'homepage',
+      type: 'boolean',
+    },
+    {
       name: 'mainImage',
       type: 'mainImage',
       title: 'Main Image',
